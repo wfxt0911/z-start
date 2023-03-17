@@ -1,0 +1,36 @@
+{
+  "name": "z-start",
+  "version": "1.0.16",
+  "description": "快速开启项目",
+  "author": "zwf",
+  "license": "ISC",
+  "files": [
+    "lib",
+    "README.md"
+  ],
+  "main": "./lib/main.js",
+  "module": "./lib/main.js",
+  "keywords": [
+    "项目启动",
+    "快速打包"
+  ],
+  "bin": {
+    "zStart": "./lib/main.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "better-sqlite3": "^8.2.0",
+    "chalk": "^4.0.0",
+    "commander": "^10.0.0",
+    "diskinfo": "^0.0.3",
+    "figlet": "^1.5.2",
+    "fs-extra": "^11.1.0",
+    "inquirer": "^8.2.0",
+    "shelljs": "^0.8.5"
+  }
+}
